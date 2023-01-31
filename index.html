@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="nav-main">
+
+
+          <button class="btn btn-primary show-menubar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-list menu-button" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+              
+          </button>
+          
+          <div class="offcanvas offcanvas-start side-bar-main" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">menu bar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            
+
+            <div class="nav-sidebar-main">
+                <ul>
+                    <li><a class="nav-sidebar" href="">HOME</a></li>
+                    <li><a class="nav-sidebar" href="">ABOUT</a></li>
+                    <li><a class="nav-sidebar" href="">PRODUCT</a></li>
+                    <li><a class="nav-sidebar" href="">CONTACT</a></li>
+                </ul>
+            </div>
+          </div>
+
+
+
+
+
+        <div class="nav-logo">
+            <img class="nav-logo-img" src="assets/img/logo.jpg" alt="" >
+            <p class="nav-logo-name">Lib-Electronic</p>
+        </div>
+        <div class="nav-option-links">
+            <button class="nav-option">Home</button>
+            <button class="nav-option">About</button>
+            
+            <div class="dropdown">
+              <a class="btn btn-secondary dropdown-toggle nav-option-2" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                Product
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="./laptop.html">laptop</a></li>
+                <li><a class="dropdown-item" href="./airpod.html">airpods</a></li>
+                <li><a class="dropdown-item" href="./mobile.html  ">mobile</a></li>
+              </ul>
+            </div>
+
+
+            <button class="nav-option">Contact</button>
+        </div>
+        
+        <div class="nav-search">
+            <input class="search" type="text" placeholder="search">
+            <div class="nav-search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </div>
+        </div>  
+
+        <div class="nav-shop">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+        </div>
+
+      
+      
+    </nav>
+    <!-- end nav bar -->
+
+
+
+
+
+    <div id="title-heading-main">
+      <p class="title-heading-1">Home</p>
+    </div>
+
+
+    <div id="carouselExampleControls" class="carousel slide slide-banner-head" data-bs-ride="carousel">
+      <div class="carousel-inner slide-banner-main">
+        <div class="carousel-item active">
+          <img src="./assets/img/laptop.jpg" class="d-block w-100 slide-banner-sub" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/airpods.jpg" class="d-block w-100 slide-banner-sub" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/iphone.jpg" class="d-block w-100 slide-banner-sub" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- product -->
+    <div class="prod-mainheading">PRODUCT</div>
+
+    <div id="prod-main">
+      <div class="prod-img-1">
+        <img class="prod-img-1-img" src="./assets/img/laptop.jpg" alt="">
+      </div>
+      <div class="para-img-1">
+        <p class="para-img-1-title">laptop</p>
+        <div class="para-image-1">
+        <p class="para-img-1-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rerum quos quas tenetur autem libero cum nam ea repudiandae, enim reiciendis sit quibusdam fugit obcaecati deleniti eveniet voluptatem tempora expedita perspiciatis eius repellat. Exercitationem, ipsum dicta corrupti quos sapiente reprehenderit eum porro ratione recusandae quisquam odio, aperiam dolore, blanditiis quaerat sit ea cumque neque accusantium repellendus modi id.
+        </p>
+      </div>
+      </div>
+    </div>
+
+    <div id="prod-main" class="product-img-sec">
+
+      <div class="para-img-1">
+        <p class="para-img-1-title">laptop</p>
+        <div class="para-image-1">
+        <p class="para-img-1-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rerum quos quas tenetur autem libero cum nam ea repudiandae, enim reiciendis sit quibusdam fugit obcaecati deleniti eveniet voluptatem tempora expedita perspiciatis eius repellat. Exercitationem, ipsum dicta corrupti quos sapiente reprehenderit eum porro ratione recusandae quisquam odio, aperiam dolore, blanditiis quaerat sit ea cumque neque accusantium repellendus modi id.
+        </p>
+      </div>
+      </div>
+
+      <div class="prod-img-1">
+        <img class="prod-img-1-img" src="./assets/img/laptop.jpg" alt="">
+      </div>
+    </div>
+
+    
+    <div id="prod-main">
+      <div class="prod-img-1">
+        <img class="prod-img-1-img" src="./assets/img/laptop.jpg" alt="">
+      </div>
+      <div class="para-img-1">
+        <p class="para-img-1-title">laptop</p>
+        <div class="para-image-1">
+        <p class="para-img-1-para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates rerum quos quas tenetur autem libero cum nam ea repudiandae, enim reiciendis sit quibusdam fugit obcaecati deleniti eveniet voluptatem tempora expedita perspiciatis eius repellat. Exercitationem, ipsum dicta corrupti quos sapiente reprehenderit eum porro ratione recusandae quisquam odio, aperiam dolore, blanditiis quaerat sit ea cumque neque accusantium repellendus modi id.
+        </p>
+      </div>
+      </div>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</html>
